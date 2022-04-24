@@ -19,8 +19,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: Use Node.js
         uses: actions/setup-node@v1
-        with:
-          node-version: '14.x' # You might need to adjust this value to your own version
+        # with:
+        #   node-version: '14.x' # You might need to adjust this value to your own version
       - name: Build
         id: build
         run: |
