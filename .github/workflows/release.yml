@@ -24,7 +24,7 @@ jobs:
       - name: Build
         id: build
         run: |
-          cd "juggl"
+          cd "neo4j-stream"
           npm install
           npm run build --if-present
           mkdir ${{ env.PLUGIN_NAME }}
